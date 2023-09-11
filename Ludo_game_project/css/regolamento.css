@@ -1,0 +1,29 @@
+
+body {
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-color: #66C4FF;
+  }
+  .container{
+    position: absolute;
+    margin: 50px;
+    font-size: large;
+    text-align: center;
+    border: 3px solid rebeccapurple;
+    
+   
+
+  }
+  img{
+    margin-top: 170px;
+    opacity: 0.4;
+  }
+  ul{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }

@@ -1,0 +1,147 @@
+@import url('https://fonts.cdnfonts.com/css/cartoon-free');
+.animate-charcter
+{
+    font-family: 'CARTOON FREE', sans-serif;
+text-transform: uppercase;
+background-image: linear-gradient(
+-225deg,
+#FFFC5E 0%,
+#4AE886 29%,
+#FF3119 67%,
+#1279FF 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 2s linear infinite;
+display: inline-block;
+font-size: 25px;
+}
+
+
+@keyframes textclip {
+to {
+background-position: 200% center;
+}
+}
+.menu,a{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    background-color: black;
+}
+#classifica{
+    margin-top: 50px;
+}
+#logout, #logout2{
+    width: 120px;
+    height: 30px;
+    border: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+
+ 
+}
+#stat, #stat1{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+h1{
+    margin-left: 50px;
+}
+
+main{
+    display: flex;
+
+    background-color: #66C4FF ;
+    height: 800px;
+   margin: 50px;
+    justify-content: center;
+
+
+}
+.choise{
+    background-color:  rgb(0, 0, 0.3);
+    margin: 50px;
+    margin-top: 0px;
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 15%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 33%;
+    
+
+}
+.icona{
+    height: 40%;
+    width: 40%;
+    margin-top: 20px;
+   
+}
+input{
+    width: 200%;
+    height: 250%;
+    background-color: black;
+    border: 2px solid #66C4FF;
+    border-radius: 20%;
+    color:#66C4FF;
+}
+.reg{
+    width: 50%;
+    height: 150%;
+    background-color: black;
+    border: 2px solid #66C4FF;
+    border-radius: 20%;
+    color:#66C4FF;
+    text-align: center;
+}
+
+.r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-top: 10px;
+}
+.img-container{
+    background-color: #66C4FF;
+    border-radius: 100%;
+    width: 30%;
+    height: 120%;
+    
+  
+    display: flex;
+    justify-content: center;
+    
+}
+header{
+    display: flex;
+    margin-left: 0px;
+    padding: 0%;
+    flex-direction: column ;
+   
+    
+    padding: 16px 8px;
+    background-color: black;
+}
+.account{
+    margin-top: 100px;
+}
+h2{
+color: white
+}
+body{
+    margin: 0px;
+    display: flex;
+    background-color:#66C4FF
+}

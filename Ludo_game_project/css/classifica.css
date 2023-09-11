@@ -1,0 +1,157 @@
+@import url('https://fonts.cdnfonts.com/css/cartoon-free');
+body{
+    background-color: #66C4FF;
+    margin: 0px;
+}
+.main{
+    background-color: black;
+    margin: 40px;
+    border-radius: 20%;
+    width: auto;
+    height: 50rem;
+
+}
+.podio {
+    display: flex;
+    border: #66C4FF 1px solid;
+    align-items: flex-end;
+    width: 30rem;
+    height: 22rem;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30%;
+    margin-left: 80px;
+    text-align: center;
+    margin: 15px;
+    justify-content: center;
+    position: relative;
+  
+    
+
+
+}
+.title-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+}
+
+.Scelta{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.rank{
+    background-color: #66C4FF;
+    border-radius: 35%;
+    border: none;
+    margin-left: 30px;
+  
+    width: 30%;
+    height: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 80%;
+    background-color: black;
+    color: #66C4FF;
+    margin: 10px;
+    border: 1px solid #66C4FF ;
+    border-collapse: collapse;
+    
+}
+
+td{
+    border: 1px solid #66C4FF;
+    text-align: center;
+}
+header{
+   margin-top: 0px;
+    display: flex;
+    margin-left: 0px;
+    padding: 0%;
+    flex-direction: column ;
+   
+    
+    padding: 16px 8px;
+    background-color: black;
+}
+.animate-charcter
+{
+    text-decoration: none;
+    font-family: 'CARTOON FREE', sans-serif;
+text-transform: uppercase;
+background-image: linear-gradient(
+-225deg,
+#FFFC5E 0%,
+#4AE886 29%,
+#FF3119 67%,
+#1279FF 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 2s linear infinite;
+display: inline-block;
+font-size: 25px;
+}
+
+
+
+
+
+img{
+    width: 2rem;
+    height: 2rem;
+}
+h2{
+ 
+    color: #66C4FF;
+    position: absolute;
+    font-size: 50px;
+    top: 0%
+    
+
+}
+.scalino {
+    font-weight: bold;
+    width: 6rem;
+    background-color: #66C4FF;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    
+   
+}
+
+.primo {
+    height: 180px;
+}
+
+.secondo {
+    height: 140px;
+    margin-top: 20px;
+}
+
+.terzo {
+    height: 100px;
+    margin-top: 40px;
+}
